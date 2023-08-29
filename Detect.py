@@ -4,7 +4,7 @@ from collections import deque
 import time
 
 # Parameters
-UDP_IP = "0.0.0.0"  # Listen on all available interfaces
+UDP_IP = "10.207.3.255"  # Listen on all available interfaces
 UDP_PORT = 5000
 MAX_PACKETS = 100   # Number of packets to keep for analysis
 THRESHOLD = 50      # Threshold for DDoS detection (adjust based on your scenario)
